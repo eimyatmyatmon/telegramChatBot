@@ -21,6 +21,7 @@
 /home/ei/Developer/Other/telegramChatBot/obj/Debug/net7.0/telegramChatBot.csproj.CoreCompileInputs.cache
 /home/ei/Developer/Other/telegramChatBot/obj/Debug/net7.0/telegramChatBot.MvcApplicationPartsAssemblyInfo.cs
 /home/ei/Developer/Other/telegramChatBot/obj/Debug/net7.0/telegramChatBot.MvcApplicationPartsAssemblyInfo.cache
+/home/ei/Developer/Other/telegramChatBot/obj/Debug/net7.0/telegramChatBot.sourcelink.json
 /home/ei/Developer/Other/telegramChatBot/obj/Debug/net7.0/staticwebassets.build.json
 /home/ei/Developer/Other/telegramChatBot/obj/Debug/net7.0/staticwebassets.development.json
 /home/ei/Developer/Other/telegramChatBot/obj/Debug/net7.0/staticwebassets/msbuild.telegramChatBot.Microsoft.AspNetCore.StaticWebAssets.props

@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Telegram.Bot;
+using Telegram.Bot.Types;
 
-namespace Telegram;
+namespace Telegram.Controller;
 
 [ApiController]
 [Route("[controller]")]
@@ -15,13 +16,14 @@ public class ChatBotController : ControllerBase
 
     }
     [Route("Chat")]
-    [HttpGet]
-    public async Task<IActionResult?> Chat()
+    [HttpPost]
+    public async Task<IActionResult?> Chat(string channelName, string text)
     {
         var token = Environment.GetEnvironmentVariable("TOKEN");
         var botClient = new TelegramBotClient(token!);
 
-        var me = await botClient.GetMeAsync();
-        return Ok("Hello, I am" + me.Username);
+        var t = await botClient.SendTextMessageAsync(channelName, text);
+        return Ok("");
     }
 }
+// https://api.telegram.org/bot6894816199:AAERtEtNfjs2flfdEoWY5I8EuFEiq7zkAs8/sendMessage?chat_id=@em3testpublic&text=Hello
