@@ -5,3 +5,6 @@
 2. Create your Bot name (/newbot - create a new bot)
 3. Generate your Bot's Token
 4. For a description of the Bot API, see this page: https://core.telegram.org/bots/api
+5. Create public Channel 
+6. Add telegram bot as Admin in this public channel
+7. post message with channel usename 
