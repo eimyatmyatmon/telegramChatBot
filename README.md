@@ -8,3 +8,5 @@
 5. Create public Channel 
 6. Add telegram bot as Admin in this public channel
 7. post message with channel usename 
+8. send message to telegram channel from url
+    https://api.telegram.org/bot{token}/sendMessage?chat_id={chatId}&text={message}

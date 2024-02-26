@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/ei/Developer/Other/telegramChatBot/telegramChatBot.csproj": {}
+    "/Users/eimyatmon/Code/Alphax/Other/telegramChatBot/telegramChatBot.csproj": {}
   },
   "projects": {
-    "/home/ei/Developer/Other/telegramChatBot/telegramChatBot.csproj": {
+    "/Users/eimyatmon/Code/Alphax/Other/telegramChatBot/telegramChatBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ei/Developer/Other/telegramChatBot/telegramChatBot.csproj",
+        "projectUniqueName": "/Users/eimyatmon/Code/Alphax/Other/telegramChatBot/telegramChatBot.csproj",
         "projectName": "telegramChatBot",
-        "projectPath": "/home/ei/Developer/Other/telegramChatBot/telegramChatBot.csproj",
-        "packagesPath": "/home/ei/.nuget/packages/",
-        "outputPath": "/home/ei/Developer/Other/telegramChatBot/obj/",
+        "projectPath": "/Users/eimyatmon/Code/Alphax/Other/telegramChatBot/telegramChatBot.csproj",
+        "packagesPath": "/Users/eimyatmon/.nuget/packages/",
+        "outputPath": "/Users/eimyatmon/Code/Alphax/Other/telegramChatBot/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ei/.nuget/NuGet/NuGet.Config"
+          "/Users/eimyatmon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -69,15 +74,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
+              "version": "[7.0.16, 7.0.16]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[7.0.14, 7.0.14]"
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[7.0.16, 7.0.16]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
+              "version": "[7.0.16, 7.0.16]"
             }
           ],
           "frameworkReferences": {
@@ -88,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }
